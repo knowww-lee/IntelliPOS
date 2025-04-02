@@ -1,0 +1,965 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>POSWindow</class>
+ <widget class="QMainWindow" name="POSWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1584</width>
+    <height>997</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color:white;</string>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QWidget" name="widget" native="true">
+      <property name="styleSheet">
+       <string notr="true">background-color:black;</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <widget class="QWidget" name="widget_7" native="true">
+         <property name="styleSheet">
+          <string notr="true">background-color:black;</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_3">
+          <item alignment="Qt::AlignmentFlag::AlignHCenter">
+           <widget class="QLabel" name="label_7">
+            <property name="styleSheet">
+             <string notr="true">color:black;
+font-weight:bold;
+font-size:30px;
+color:white;</string>
+            </property>
+            <property name="text">
+             <string>IntelliPOS</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_8" native="true">
+         <property name="styleSheet">
+          <string notr="true">background-color:black;
+color:white;</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="0" column="1">
+           <widget class="QLabel" name="label_10">
+            <property name="styleSheet">
+             <string notr="true">font-weight:bold;</string>
+            </property>
+            <property name="text">
+             <string>Noli</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>Cashier:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="3">
+           <widget class="QLabel" name="label_21">
+            <property name="styleSheet">
+             <string notr="true">font-weight:bold;</string>
+            </property>
+            <property name="text">
+             <string>12455679</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QLabel" name="label_22">
+            <property name="styleSheet">
+             <string notr="true">margin-left:20px;</string>
+            </property>
+            <property name="text">
+             <string>Time:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="5">
+           <widget class="QLabel" name="label_23">
+            <property name="styleSheet">
+             <string notr="true">font-weight:bold;</string>
+            </property>
+            <property name="text">
+             <string>11:00 PM</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="label_11">
+            <property name="text">
+             <string>Store:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="3">
+           <widget class="QLabel" name="label_24">
+            <property name="styleSheet">
+             <string notr="true">font-weight:bold;</string>
+            </property>
+            <property name="text">
+             <string>Gwen</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="5">
+           <widget class="QLabel" name="label_26">
+            <property name="styleSheet">
+             <string notr="true">font-weight:bold;</string>
+            </property>
+            <property name="text">
+             <string>March 29, 2025</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="2">
+           <widget class="QLabel" name="label_14">
+            <property name="styleSheet">
+             <string notr="true">margin-left:20px;</string>
+            </property>
+            <property name="text">
+             <string>Customer:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="4">
+           <widget class="QLabel" name="label_25">
+            <property name="styleSheet">
+             <string notr="true">margin-left:20px;</string>
+            </property>
+            <property name="text">
+             <string>Date:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QLabel" name="label_12">
+            <property name="styleSheet">
+             <string notr="true">font-weight:bold;</string>
+            </property>
+            <property name="text">
+             <string>Sweet Avenue</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QLabel" name="label_13">
+            <property name="styleSheet">
+             <string notr="true">margin-left:20px;</string>
+            </property>
+            <property name="text">
+             <string>Transaction No:</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_9" native="true">
+         <property name="styleSheet">
+          <string notr="true">background-color:black;
+color:white;</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item alignment="Qt::AlignmentFlag::AlignHCenter">
+           <widget class="QLabel" name="label_8">
+            <property name="font">
+             <font>
+              <pointsize>14</pointsize>
+              <bold>true</bold>
+             </font>
+            </property>
+            <property name="text">
+             <string>Settings</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_2" native="true">
+      <property name="styleSheet">
+       <string notr="true">background-color:gray;</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QWidget" name="widget_4" native="true">
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QTableWidget" name="tableWidget">
+            <property name="mouseTracking">
+             <bool>false</bool>
+            </property>
+            <property name="autoFillBackground">
+             <bool>false</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color:black;</string>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::Shape::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Shadow::Raised</enum>
+            </property>
+            <attribute name="horizontalHeaderCascadingSectionResizes">
+             <bool>false</bool>
+            </attribute>
+            <attribute name="horizontalHeaderMinimumSectionSize">
+             <number>28</number>
+            </attribute>
+            <attribute name="horizontalHeaderDefaultSectionSize">
+             <number>100</number>
+            </attribute>
+            <attribute name="horizontalHeaderStretchLastSection">
+             <bool>true</bool>
+            </attribute>
+            <attribute name="verticalHeaderStretchLastSection">
+             <bool>false</bool>
+            </attribute>
+            <column>
+             <property name="text">
+              <string>Item</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Qty</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Amt</string>
+             </property>
+            </column>
+            <column>
+             <property name="text">
+              <string>Total</string>
+             </property>
+            </column>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_10" native="true">
+            <layout class="QGridLayout" name="gridLayout_3">
+             <item row="1" column="0">
+              <widget class="QLabel" name="label">
+               <property name="styleSheet">
+                <string notr="true">color:black;</string>
+               </property>
+               <property name="text">
+                <string>Discount</string>
+               </property>
+              </widget>
+             </item>
+             <item row="1" column="1" alignment="Qt::AlignmentFlag::AlignRight">
+              <widget class="QLabel" name="label_16">
+               <property name="styleSheet">
+                <string notr="true">color:black;
+font-weight:bold;
+font-size:20px;</string>
+               </property>
+               <property name="text">
+                <string>0.00</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="1" alignment="Qt::AlignmentFlag::AlignRight">
+              <widget class="QLabel" name="label_18">
+               <property name="styleSheet">
+                <string notr="true">color:black;
+font-weight:bold;
+font-size:20px;</string>
+               </property>
+               <property name="text">
+                <string>299.00</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="1" alignment="Qt::AlignmentFlag::AlignRight">
+              <widget class="QLabel" name="label_15">
+               <property name="styleSheet">
+                <string notr="true">color:black;
+font-weight:bold;
+font-size:20px;</string>
+               </property>
+               <property name="text">
+                <string>299.00</string>
+               </property>
+              </widget>
+             </item>
+             <item row="2" column="0">
+              <widget class="QLabel" name="label_17">
+               <property name="styleSheet">
+                <string notr="true">color:black;</string>
+               </property>
+               <property name="text">
+                <string>Subtotal</string>
+               </property>
+              </widget>
+             </item>
+             <item row="0" column="0">
+              <widget class="QLabel" name="label_2">
+               <property name="styleSheet">
+                <string notr="true">color:black;</string>
+               </property>
+               <property name="text">
+                <string>Total</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QWidget" name="widget_11" native="true">
+            <layout class="QHBoxLayout" name="horizontalLayout_4">
+             <item>
+              <widget class="QLabel" name="label_20">
+               <property name="styleSheet">
+                <string notr="true">color:black;</string>
+               </property>
+               <property name="text">
+                <string>Recommendation</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_19">
+               <property name="styleSheet">
+                <string notr="true">color:black;
+font-weight:bold;
+font-size:20px;</string>
+               </property>
+               <property name="text">
+                <string>Dark Chocolate</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_5" native="true">
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+         <layout class="QGridLayout" name="gridLayout">
+          <item row="0" column="0">
+           <widget class="QPushButton" name="pushButton_19">
+            <property name="styleSheet">
+             <string notr="true">padding:20px;
+color:white;
+background-color:#175793;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>Previous</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="4">
+           <widget class="QPushButton" name="pushButton_28">
+            <property name="styleSheet">
+             <string notr="true">padding:40px;
+color:white;
+background-color:#ADBC3C;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="4">
+           <widget class="QPushButton" name="pushButton_34">
+            <property name="styleSheet">
+             <string notr="true">padding:70px;
+color:white;
+background-color:#1A8DC7;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QPushButton" name="pushButton_31">
+            <property name="styleSheet">
+             <string notr="true">padding:70px;
+color:white;
+background-color:#1A8DC7;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="pushButton_3">
+            <property name="styleSheet">
+             <string notr="true">padding:20px;
+color:white;
+background-color:#175793;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>Previous</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="4">
+           <widget class="QPushButton" name="pushButton_37">
+            <property name="styleSheet">
+             <string notr="true">padding:70px;
+color:white;
+background-color:#1A8DC7;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="4">
+           <widget class="QPushButton" name="pushButton_27">
+            <property name="styleSheet">
+             <string notr="true">padding:20px;
+color:white;
+background-color:#175793;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>Next</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QPushButton" name="pushButton_10">
+            <property name="styleSheet">
+             <string notr="true">padding:70px;
+color:white;
+background-color:#1A8DC7;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="4">
+           <widget class="QPushButton" name="pushButton_35">
+            <property name="styleSheet">
+             <string notr="true">padding:70px;
+color:white;
+background-color:#1A8DC7;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2" alignment="Qt::AlignmentFlag::AlignHCenter">
+           <widget class="QLabel" name="label_3">
+            <property name="styleSheet">
+             <string notr="true">color:black;
+font-weight:bold;
+font-size:20px;</string>
+            </property>
+            <property name="text">
+             <string>Categories</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="styleSheet">
+             <string notr="true">padding:40px;
+color:white;
+background-color:#59B17E;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QPushButton" name="pushButton_17">
+            <property name="styleSheet">
+             <string notr="true">padding:70px;
+color:white;
+background-color:#1A8DC7;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="3">
+           <widget class="QPushButton" name="pushButton_7">
+            <property name="styleSheet">
+             <string notr="true">padding:40px;
+color:white;
+background-color:#BA5F5F;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="pushButton_8">
+            <property name="styleSheet">
+             <string notr="true">padding:40px;
+color:white;
+background-color:#F09E55;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="4">
+           <widget class="QPushButton" name="pushButton_5">
+            <property name="styleSheet">
+             <string notr="true">padding:20px;
+color:white;
+background-color:#175793;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>Next</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QPushButton" name="pushButton_29">
+            <property name="styleSheet">
+             <string notr="true">padding:70px;
+color:white;
+background-color:#1A8DC7;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pushButton">
+            <property name="styleSheet">
+             <string notr="true">padding:40px;
+color:white;
+background-color:#0097B2;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="3">
+           <widget class="QPushButton" name="pushButton_36">
+            <property name="styleSheet">
+             <string notr="true">padding:70px;
+color:white;
+background-color:#1A8DC7;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QPushButton" name="pushButton_30">
+            <property name="styleSheet">
+             <string notr="true">padding:70px;
+color:white;
+background-color:#1A8DC7;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="QPushButton" name="pushButton_18">
+            <property name="styleSheet">
+             <string notr="true">padding:70px;
+color:white;
+background-color:#1A8DC7;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QPushButton" name="pushButton_4">
+            <property name="styleSheet">
+             <string notr="true">padding:70px;
+color:white;
+background-color:#1A8DC7;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="2">
+           <widget class="QPushButton" name="pushButton_32">
+            <property name="styleSheet">
+             <string notr="true">padding:70px;
+color:white;
+background-color:#1A8DC7;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="3">
+           <widget class="QPushButton" name="pushButton_33">
+            <property name="styleSheet">
+             <string notr="true">padding:70px;
+color:white;
+background-color:#1A8DC7;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QPushButton" name="pushButton_6">
+            <property name="styleSheet">
+             <string notr="true">padding:70px;
+color:white;
+background-color:#1A8DC7;
+border-radius:20px;
+font-weight:bold;</string>
+            </property>
+            <property name="text">
+             <string>Dark Chocolate</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2" alignment="Qt::AlignmentFlag::AlignHCenter">
+           <widget class="QLabel" name="label_4">
+            <property name="styleSheet">
+             <string notr="true">color:black;
+font-weight:bold;
+font-size:20px;</string>
+            </property>
+            <property name="text">
+             <string>Products</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="3">
+           <widget class="QPushButton" name="pushButton_9">
+            <property name="styleSheet">
+             <string notr="true">padding:70px;
+color:white;
+background-color:#1A8DC7;
+border-radius:20px;</string>
+            </property>
+            <property name="text">
+             <string>PushButton</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="widget_6" native="true">
+         <property name="styleSheet">
+          <string notr="true">background-color:white;</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_2">
+          <item alignment="Qt::AlignmentFlag::AlignHCenter">
+           <widget class="QLabel" name="label_5">
+            <property name="styleSheet">
+             <string notr="true">color:black;
+font-weight:bold;
+font-size:30px;</string>
+            </property>
+            <property name="text">
+             <string>299.00</string>
+            </property>
+           </widget>
+          </item>
+          <item alignment="Qt::AlignmentFlag::AlignHCenter">
+           <widget class="QLabel" name="label_6">
+            <property name="styleSheet">
+             <string notr="true">color:black;
+font-weight:bold;
+font-size:20px;</string>
+            </property>
+            <property name="text">
+             <string>Subtotal</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_15">
+            <property name="styleSheet">
+             <string notr="true">padding:40px;
+color:white;
+background-color:#414141;
+border-radius:20px;
+font-size:18px;
+font-weight:bold;</string>
+            </property>
+            <property name="text">
+             <string>SUSPEND</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_11">
+            <property name="styleSheet">
+             <string notr="true">padding:40px;
+color:white;
+background-color:#414141;
+border-radius:20px;
+font-size:18px;
+font-weight:bold;</string>
+            </property>
+            <property name="text">
+             <string>REFUND</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_12">
+            <property name="styleSheet">
+             <string notr="true">padding:40px;
+color:white;
+background-color:#414141;
+border-radius:20px;
+font-size:18px;
+font-weight:bold;</string>
+            </property>
+            <property name="text">
+             <string>VOID</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_13">
+            <property name="styleSheet">
+             <string notr="true">padding:40px;
+color:white;
+background-color:#414141;
+border-radius:20px;
+font-size:18px;
+font-weight:bold;</string>
+            </property>
+            <property name="text">
+             <string>PRINT</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_14">
+            <property name="styleSheet">
+             <string notr="true">padding:40px;
+color:white;
+background-color:#414141;
+border-radius:20px;
+font-size:18px;
+font-weight:bold;</string>
+            </property>
+            <property name="text">
+             <string>MANAGE</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="pushButton_16">
+            <property name="styleSheet">
+             <string notr="true">padding:40px;
+color:white;
+background-color:#A20E00;
+border-radius:20px;
+font-size:18px;
+font-weight:bold;</string>
+            </property>
+            <property name="text">
+             <string>SETTLE</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widget_3" native="true">
+      <property name="styleSheet">
+       <string notr="true">background-color:white;</string>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QPushButton" name="pushButton_20">
+         <property name="styleSheet">
+          <string notr="true">padding:40px;
+color:white;
+background-color:#414141;
+border-radius:20px;
+font-size:18px;
+font-weight:bold;</string>
+         </property>
+         <property name="text">
+          <string>VIEW RECEIPT</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_21">
+         <property name="styleSheet">
+          <string notr="true">padding:40px;
+color:white;
+background-color:#414141;
+border-radius:20px;
+font-size:18px;
+font-weight:bold;</string>
+         </property>
+         <property name="text">
+          <string>CUSTOMER</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_22">
+         <property name="styleSheet">
+          <string notr="true">padding:40px;
+color:white;
+background-color:#414141;
+border-radius:20px;
+font-size:18px;
+font-weight:bold;</string>
+         </property>
+         <property name="text">
+          <string>DISCOUNT</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_23">
+         <property name="styleSheet">
+          <string notr="true">padding:40px;
+color:white;
+background-color:#414141;
+border-radius:20px;
+font-size:18px;
+font-weight:bold;</string>
+         </property>
+         <property name="text">
+          <string>VOIDED</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_24">
+         <property name="styleSheet">
+          <string notr="true">padding:40px;
+color:white;
+background-color:#414141;
+border-radius:20px;
+font-size:18px;
+font-weight:bold;</string>
+         </property>
+         <property name="text">
+          <string>REFUNDED</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_25">
+         <property name="styleSheet">
+          <string notr="true">padding:40px;
+color:white;
+background-color:#414141;
+border-radius:20px;
+font-size:18px;
+font-weight:bold;</string>
+         </property>
+         <property name="text">
+          <string>SUSPENDED</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_26">
+         <property name="styleSheet">
+          <string notr="true">padding:40px;
+color:white;
+background-color:#414141;
+border-radius:20px;
+font-size:18px;
+font-weight:bold;</string>
+         </property>
+         <property name="text">
+          <string>SIGN OUT</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
