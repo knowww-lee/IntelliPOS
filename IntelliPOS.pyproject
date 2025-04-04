@@ -3,6 +3,7 @@
         "mainwindow.py",
         "form.ui",
         "ui/pos.ui",
-        "ui/login.ui"
+        "ui/login.ui",
+        "ui/forgotpassword.ui"
     ]
 }

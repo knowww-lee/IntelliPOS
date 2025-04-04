@@ -1,3 +1,4 @@
+#Authenticate users
 import bcrypt
 from database.db_config import connect_db
 
