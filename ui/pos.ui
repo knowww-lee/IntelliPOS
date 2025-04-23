@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1584</width>
-    <height>997</height>
+    <width>1918</width>
+    <height>1095</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -334,34 +334,6 @@ font-size:20px;</string>
                </property>
                <property name="text">
                 <string>Total</string>
-               </property>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
-          <item>
-           <widget class="QWidget" name="widget_11" native="true">
-            <layout class="QHBoxLayout" name="horizontalLayout_4">
-             <item>
-              <widget class="QLabel" name="label_20">
-               <property name="styleSheet">
-                <string notr="true">color:black;</string>
-               </property>
-               <property name="text">
-                <string>Recommendation</string>
-               </property>
-              </widget>
-             </item>
-             <item>
-              <widget class="QLabel" name="label_19">
-               <property name="styleSheet">
-                <string notr="true">color:black;
-font-weight:bold;
-font-size:20px;</string>
-               </property>
-               <property name="text">
-                <string>Dark Chocolate</string>
                </property>
               </widget>
              </item>
