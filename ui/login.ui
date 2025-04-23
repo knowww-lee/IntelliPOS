@@ -286,6 +286,9 @@ color:white;</string>
        </item>
        <item>
         <widget class="QPushButton" name="loginButton">
+         <property name="cursor">
+          <cursorShape>PointingHandCursor</cursorShape>
+         </property>
          <property name="styleSheet">
           <string notr="true">padding: 20px, 30px, 20px, 30px;
 margin-left:100px;
