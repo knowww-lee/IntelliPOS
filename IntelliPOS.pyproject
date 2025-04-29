@@ -4,6 +4,22 @@
         "form.ui",
         "ui/pos.ui",
         "ui/login.ui",
-        "ui/forgotpassword.ui"
+        "ui/forgotpassword.ui",
+        "ui/discountDialog.ui",
+        "ui/customerDialog.ui",
+        "ui/discItemsDialog.ui",
+        "ui/promoDialog.ui",
+        "ui/printReceiptDialog.ui",
+        "ui/suspendDialog.ui",
+        "ui/suspendedDialog.ui",
+        "ui/paymentDialog.ui",
+        "ui/cashPaymentDialog.ui",
+        "ui/otherPaymentsDialog.ui",
+        "ui/refundDialog.ui",
+        "ui/refundedDialog.ui",
+        "ui/adminPasswordDialog.ui",
+        "ui/voidDialog.ui",
+        "ui/voidedDialog.ui",
+        "ui/manage.ui"
     ]
 }

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1101</width>
-    <height>823</height>
+    <width>1134</width>
+    <height>802</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -144,20 +144,30 @@ margin-right:180px;</string>
        </item>
        <item alignment="Qt::AlignmentFlag::AlignHCenter">
         <widget class="QLineEdit" name="usernameField">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
          <property name="styleSheet">
           <string notr="true">padding-left:90px;
 padding-right:90px;
 padding-top:20px;
 padding-bottom:20px;
 background-color:white;
-margin-left:120px;
-margin-right:120px;
 color:black;
  border: 2px solid black;
  border-radius: 20px;</string>
          </property>
+         <property name="text">
+          <string/>
+         </property>
          <property name="placeholderText">
           <string>Enter Username</string>
+         </property>
+         <property name="clearButtonEnabled">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -207,8 +217,6 @@ padding-right:90px;
 padding-top:20px;
 padding-bottom:20px;
 background-color:white;
-margin-left:120px;
-margin-right:120px;
 color:black;
  border: 2px solid black;
  border-radius: 20px;</string>
@@ -221,6 +229,9 @@ color:black;
          </property>
          <property name="placeholderText">
           <string>Enter Password</string>
+         </property>
+         <property name="clearButtonEnabled">
+          <bool>true</bool>
          </property>
         </widget>
        </item>
@@ -335,7 +346,7 @@ background-color:black;
           <string notr="true">color:white;</string>
          </property>
          <property name="text">
-          <string>Forgot Password?</string>
+          <string>Forgot Username or Password?</string>
          </property>
         </widget>
        </item>
